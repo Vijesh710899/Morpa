@@ -8,3 +8,12 @@ h1 {
     text-align: center;
     color: #333;
 }
+/* Body ને Center કરવો */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
