@@ -1,40 +1,21 @@
+/* Page નું Full Height અને Center Alignment */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-}
-h1 {
-    text-align: center;
-    color: #333;
-}
-/* Body ને Center કરવો */
-body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-/* Page સંપૂર્ણ ઉંચાઈમાં અને Background Color */
-body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Top Position */
-    align-items: center;
-    background-color: #f0f0f0; /* તમે અહીં તમારું પસંદગીનું color મૂકી શકો */
-    margin: 0;
+    background-color: #f0f0f0; /* Background Color */
 }
 
 /* Center Box */
 .container {
-    width: 50%;
-    background-color: white; /* Boxનું Background Color */
-    padding: 20px;
+    background-color: white; /* Box Background */
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin-top: 20px; /* ટોચ પરથી થોડું નીચે લાવવા */
+    width: 50%;
 }
