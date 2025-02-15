@@ -17,3 +17,24 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+/* Page સંપૂર્ણ ઉંચાઈમાં અને Background Color */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Top Position */
+    align-items: center;
+    background-color: #f0f0f0; /* તમે અહીં તમારું પસંદગીનું color મૂકી શકો */
+    margin: 0;
+}
+
+/* Center Box */
+.container {
+    width: 50%;
+    background-color: white; /* Boxનું Background Color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px; /* ટોચ પરથી થોડું નીચે લાવવા */
+}
